@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- Broke the reset sheet -->
+	<link rel="stylesheet" type="text/css" href="////assets/css/reset.css">
+
+	<meta charset="UTF-8">
+	<title>Hangman Project</title>
+
+</head>
+<body>
+
+	<h1>Star Wars Hangman<br>
+		Do or do not, there is no try!</h1>
+
+	<h2 id="begin">Press any key to begin your quest.</h2>
+	
+	<p id="charlie"></p>
+
+	<form name="kilo">
+
+		<input name="lima" type="text" size="10" maxlength="10">
+
+		<input name="whiskey" type="button" value="Guess" onClick="guessButton()">
+
+		<p id="wrongLetters">Wrong Letters:</p>
+
+		
+
+		<img src="assets/images/hangman0.gif" id="hangman"><br />
+
+		
+  
+		<input name="refresh" type="button" value="New Game" onClick="location.reload()">
+
+	</form>
+	
+		<script type="text/javascript" src="assets/javascript/hmfinal1.js"></script>
+
+</body>
+</html>
