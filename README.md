@@ -1,2 +1,2 @@
 # Hangman-Game
-A simple Hangman game built in JavaScript. 
+Created a Star Wars styled Hangman application playable in the browser. 
